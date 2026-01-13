@@ -131,6 +131,19 @@
     }
 }
 
+/* Reduce font size on small screens */
+@media (max-width: 435px) {
+    .hero-text p {
+        font-size: 0.7em;
+    }
+}
+
+/* @media (max-width: 355px) {
+    .hero-text p {
+        display: none;
+    }
+} */
+
 #about {
     position: relative;
     width: 100%;
